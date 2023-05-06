@@ -1,10 +1,11 @@
 package go_rw_test
 
 import (
-	"github.com/stretchr/testify/assert"
 	"io"
 	"testing"
 	go_rw "xin-tsla/go-rw"
+
+	"github.com/stretchr/testify/assert"
 )
 
 func TestCSV_ReadOneLine(t *testing.T) {
